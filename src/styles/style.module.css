@@ -1,0 +1,21 @@
+
+/* Button */
+
+
+/* Auto Layout */
+
+.HeroButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 24px;
+  
+  position: absolute;
+  width: 219px;
+  height: 64px;
+  left: calc(50% - 219px/2 - 554.5px);
+  top: 562px;
+  
+  background: #71A894;
+  border-radius: 8px;
+}
