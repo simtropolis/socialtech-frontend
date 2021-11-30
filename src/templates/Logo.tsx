@@ -5,19 +5,16 @@ type ILogoProps = {
 };
 
 const Logo = (props: ILogoProps) => {
-  const size = props.xl ? '167' : '34';
   const fontStyle = props.xl
     ? 'font-semibold text-3xl'
     : 'font-semibold text-xl';
-
   return (
     <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
       <svg
-        width={size}
-        height={size}
+        width="165"
+        height="34"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-        overflow="hidden"
       >
         <defs>
           <clipPath id="clip0">
