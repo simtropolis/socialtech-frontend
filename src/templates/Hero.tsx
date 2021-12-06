@@ -16,11 +16,6 @@ const Hero = () => (
             <a>About</a>
           </Link>
         </li>
-        <li>
-          <Link href="https://glowing-parcel-496.notion.site/de077abfe9ea492198a46c04341bcbba?v=09bf4087a52c4f8e9291c6eb6a9605cf">
-            <a>Project Tracker</a>
-          </Link>
-        </li>
       </NavbarTwoColumns>
     </Section>
     <Section yPadding="pt-20 pb-32">
