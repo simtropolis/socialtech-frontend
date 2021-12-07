@@ -14,15 +14,22 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@styled-icons/feather": "^10.18.0",
+    "@styled-icons/simple-icons": "^10.33.0",
     "classnames": "^2.3.1",
     "next": "^12.0.2",
     "next-seo": "^4.28.1",
+    "nextjs-redirect": "^5.0.2",
     "optionator": "^0.9.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "markdown-it": "^12.0.6",
+    "markdown-it-anchor": "^7.1.0",
+    "markdown-it-checkbox": "^1.1.0",
     "styled-jsx-plugin-postcss": "^4.0.1"
   },
   "devDependencies": {
+    "@fontsource/inter": "^4.2.2",
     "@next/bundle-analyzer": "^12.0.2",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.33",
@@ -47,6 +54,8 @@
     "postcss": "^8.3.11",
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
+    "sass": "^1.32.10",
+    "styled-components": "^5.2.3",
     "tailwindcss": "^2.2.19",
     "typescript": "^4.4.4"
   },
