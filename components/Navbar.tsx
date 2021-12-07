@@ -8,7 +8,7 @@ export function Navbar() {
     <div className={styles.navbar}>
       <Link href="/">
         <a>
-          <img src="/logo.svg" draggable={false} />
+          <img src="/assets/images/logo.svg" draggable={false} />
         </a>
       </Link>
       <div className={styles.actions}>

@@ -15,11 +15,11 @@ export function JoinLinks(props: Props) {
         className={classNames('button', 'red', props.contrast && 'border')}
         href={URLs.PublicBeta}
       >
-        <Edit size={24} strokeWidth={2} /> Join Public Beta
+        <Edit size={24} strokeWidth={2} /> Request Early Access
       </a>
-      <a className="button" href={URLs.App}>
+      {/*   <a className="button" href={URLs.App}>
         Open Web app
-      </a>
+      </a> */}
     </div>
   );
 }

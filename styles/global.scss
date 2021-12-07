@@ -3,6 +3,7 @@
 @import "~@fontsource/inter/500.css";
 @import "~@fontsource/inter/600.css";
 @import "~@fontsource/inter/700.css";
+@import url("https://use.typekit.net/bpi8rtm.css");
 
 * {
     -moz-osx-font-smoothing: grayscale;
@@ -18,8 +19,8 @@ svg {
 
 html, body {
     margin: 0;
-    color: white;
-    font-family: 'Inter', sans-serif;
+    color: black;
+    font-family: proxima-nova, 'Inter', sans-serif;
     background-color: var(--background);
 }
 
@@ -66,7 +67,7 @@ svg, img {
 
 :root {
     --max-width: 1450px;
-    --scrollbar: hsl(0, 52%, 14%);
-    --background: #101823;
-    --accent: #ff4654;
+    --scrollbar: hsl(125, 52%, 14%);
+    --background: #F9F9F9;
+    --accent: #71A894;
 }

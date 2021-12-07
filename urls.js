@@ -12,7 +12,7 @@ module.exports = {
   Reddit: 'https://reddit.com/r/revoltchat',
   Twitter: 'https://twitter.com/revoltchat',
   Mastodon: 'https://mastodon.social/@revoltapp',
-  GitHub: 'https://github.com/revoltchat',
+  GitHub: 'https://github.com/devsocialtech',
   GitLab: 'https://gitlab.insrt.uk/revolt',
 
   Translate: 'https://weblate.insrt.uk/engage/revolt/?utm_source=widget',

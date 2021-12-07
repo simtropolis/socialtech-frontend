@@ -6,10 +6,11 @@ export function JoinPrompt() {
     <div className={styles.container}>
       <div className={styles.prompt}>
         <div className={styles.info}>
-          <h1>Ready to try Revolt?</h1>
+          <h1>Start an Open Enterprise?</h1>
           <p>
-            We use PWA technologies so that you can get a native app-like
-            experience without having to download it to your device.
+            If you can’t wait to run a new or existing organization on Open
+            Enterprise and are willing to explore and navigate the beta, we’d
+            love to get you started.
           </p>
         </div>
         <JoinLinks contrast />

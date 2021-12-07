@@ -12,35 +12,38 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Revolt</title>
+        <title>SocialTech</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=0.9, user-scalable=0"
         />
 
-        <meta property="og:title" content="Revolt" />
-        <meta property="og:url" content="https://revolt.chat" />
-        <meta property="og:image" content="https://revolt.chat/embed_new.png" />
+        <meta property="og:title" content="SocialTech" />
+        <meta property="og:url" content="https://socialtech.live" />
+        <meta
+          property="og:image"
+          content="https://socialtech.live/socialtech.gif"
+        />
         <meta
           property="og:description"
-          content="Don't bother with chat apps that don't respect your privacy. Revolt is a brand new chat platform designed around you."
+          content="Our vision is to make technology universally accessible. We are building a new tech ecosystem that connects people and give them the tools to build their own systems of innovation and solutions empowering technological choice."
         />
 
-        <meta property="twitter:title" content="Revolt" />
-        <meta property="twitter:site" content="@revoltchat" />
+        <meta property="twitter:title" content="SocialTech" />
+        <meta property="twitter:site" content="@socialtech.live" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:image"
-          content="https://revolt.chat/embed_new.png"
+          content="https://socialtech.live/socialtech.gif"
         />
         <meta
           property="twitter:image:alt"
-          content='Image of REVOLT app alongside logo with subtext "Communication is critical. Privacy is essential."'
+          content="Open Technology Collaboration"
         />
         <meta
           property="twitter:description"
-          content="Don't bother with chat apps that don't respect your privacy. Revolt is a brand new chat platform designed around you."
+          content="Our vision is to make technology universally accessible. We are building a new tech ecosystem that connects people and give them the tools to build their own systems of innovation and solutions empowering technological choice."
         />
 
         <meta property="og:image:type" content="image/png" />
@@ -62,17 +65,21 @@ export default function Home() {
           <div className={styles.overview}>
             <div className={styles.left}>
               <div className={styles.tagline}>
-                <p>Don&#39;t bother with other chat apps.</p>
                 <h1>
-                  Communication is critical.
+                  A new model for open collaboration.
                   <br />
-                  Privacy is essential.
+                  and socialising technology.
                 </h1>
+                <p>
+                  Run an organisation where members get rewarded for their
+                  <br />
+                  contributions with fraction ownership.
+                </p>
                 <JoinLinks />
               </div>
             </div>
             <div className={styles.graphic}>
-              <img src="/client_vector.svg" draggable={false} />
+              <img src="/assets/images/feature2.svg" draggable={false} />
             </div>
           </div>
         </section>
@@ -87,15 +94,14 @@ export default function Home() {
           <div className={styles.content}>
             <div>
               <h1>
-                Familiar and simple,
-                <br />
-                just how you like it.
+                Kickstart an organisation
+                <br /> with your co-founders.
               </h1>
               <p>
-                Revolt is built on the same technologies as other popular chat
-                applications, so there won’t be any need to re-learn how to use
-                it. If you don&#39;t like the default look, you can customize it
-                to your heart’s content.
+                It’s the early days, you just had a long conversation with two
+                friends about a meaningful challenge that you’re all passionate
+                about and have a potential solution for. You’re ready to embark
+                the startup journey.
               </p>
             </div>
           </div>
@@ -104,18 +110,14 @@ export default function Home() {
           <div className={styles.content}>
             <div>
               <h1>
-                Open source
-                <br />
-                to the public.
+                Onboard users, investors
+                <br /> and advisors as you grow
               </h1>
               <p>
-                We believe that there’s more to it than just code. Having the
-                Revolt project open source means that we can create a
-                transparent layer between us and the user.
-                <br />
-                <br />
-                You can contribute, create your own bot, or make your own
-                version of the Revolt client.
+                You’ve bootstrapped and delivered an MVP, and some investors and
+                advisors are interested in having a chat with you. As an Open
+                Enterprise, you can onboard them seamlessly into your digital
+                organization and align them with your success.
               </p>
               <a
                 className={styles.link}
@@ -139,14 +141,15 @@ export default function Home() {
           <div className={styles.content}>
             <div>
               <h1>
-                Available
+                Engage highly committed
                 <br />
-                everywhere.
+                contributors
               </h1>
               <p>
-                From desktop to mobile, the Revolt app is available wherever you
-                are, so you can hang out, coordinate a meetup, or hop in a video
-                call, even if you&#39;re not in front of your computer.
+                You need talented people on-demand across various tasks that
+                your full-time workforce can’t prioritize at the moment. As an
+                Open Enterprise, you can easily fund tasks and have people apply
+                to work on them in return for funds or shares.
               </p>
             </div>
           </div>
@@ -155,14 +158,17 @@ export default function Home() {
           <div className={styles.content}>
             <div>
               <h1>
-                Your data should be yours,
+                Reimagining what it means
                 <br />
-                not ours.
+                to innovation.
               </h1>
               <p>
-                Privacy has become a major concern over the past few years, and
-                we wanted to take action by building a{' '}
-                <u>privacy-first, open source chat platform.</u>
+                Our mission is to{' '}
+                <u>augment human capacity and advance social well-being</u> by
+                helping make technology universally accessible. We are building
+                are building a new tech ecosystem that connects people and give
+                them the tools to build their own systems of innovation and
+                solutions empowering technological choice.
               </p>
             </div>
           </div>
