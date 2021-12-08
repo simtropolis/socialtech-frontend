@@ -1,13 +1,3 @@
-import {
-  Gitlab,
-  Reddit,
-  Twitter,
-  Mastodon,
-  Github,
-} from '@styled-icons/simple-icons';
-import Link from 'next/link';
-
-import URLs from '../urls';
 import styles from './Footer.module.scss';
 
 export function Footer() {
@@ -15,7 +5,7 @@ export function Footer() {
     <div className={styles.footer}>
       <div className={styles.branding}>
         <img src="/assets/images/logo.svg" draggable={false} />
-        <div className={styles.socials}>
+        {/*   <div className={styles.socials}>
           <a href={URLs.GitHub}>
             <Github size={24} />
           </a>
@@ -31,18 +21,18 @@ export function Footer() {
           <a rel="me" href={URLs.Mastodon}>
             <Mastodon size={24} />
           </a>
-        </div>
+        </div> */}
       </div>
-      <div className={styles.links}>
+      {/*  <div className={styles.links}>
         <div className={styles.column}>
           <b>App</b>
           <a href={URLs.App}>Open App</a>
           <a href={URLs.ProjectTracker}>
             <a>Project Tracker</a>
           </a>
-          {/* <a>Download</a>
-                    <a>Features</a>
-                    <a>Branding</a> */}
+          <a>Download</a>
+          <a>Features</a>
+          <a>Branding</a>
         </div>
         <div className={styles.column}>
           <b>Developers</b>
@@ -69,7 +59,7 @@ export function Footer() {
             <a>Acceptable Usage</a>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

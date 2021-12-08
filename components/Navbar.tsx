@@ -12,10 +12,11 @@ export function Navbar() {
         </a>
       </Link>
       <div className={styles.actions}>
-        <a href={URLs.ProjectTracker}>Project Tracker</a>
-        {/* <a>Developers</a> */}
-        {/* <a>Download</a> */}
-        {/* <a><Globe size={28} strokeWidth={2} /></a> */}
+        <a href={URLs.GitHub}>GitHub</a>
+        {/*         <a>Why Simptropolis?</a>
+        <a>Features</a>
+        <a>Contribute</a>
+        <a>Request Early Access</a> */}
       </div>
     </div>
   );
