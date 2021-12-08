@@ -11,7 +11,7 @@ export default function Home({ content }: { content: string }) {
   return (
     <div>
       <Head>
-        <title>About Revolt</title>
+        <title>About Simtropolis</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="viewport"
