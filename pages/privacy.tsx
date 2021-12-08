@@ -1,5 +1,3 @@
-import { readFile } from 'fs/promises';
-
 import Head from 'next/head';
 
 import { Footer } from '../components/Footer';
@@ -28,6 +26,8 @@ export default function Home({ content }: { content: string }) {
     </div>
   );
 }
+
+const { readFile } = require('fs/promises');
 
 export async function getStaticProps() {
   const file = await readFile('./legal/Privacy Policy.md');
