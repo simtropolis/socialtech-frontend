@@ -17,6 +17,7 @@
     "@styled-icons/feather": "^10.18.0",
     "@styled-icons/simple-icons": "^10.33.0",
     "classnames": "^2.3.1",
+    "fs": "^0.0.1-security",
     "markdown-it": "^12.0.6",
     "markdown-it-anchor": "^7.1.0",
     "markdown-it-checkbox": "^1.1.0",
@@ -29,6 +30,7 @@
     "styled-jsx-plugin-postcss": "^4.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
     "@fontsource/inter": "^4.2.2",
     "@next/bundle-analyzer": "^12.0.2",
     "@types/node": "^16.11.6",
