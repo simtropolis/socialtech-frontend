@@ -3,7 +3,7 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Reimagining what it means to innovation"
+    title="The Critical Issue of Technological Choice"
     description=" Our mission is to augment human capacity and advance social well-being by helping make technology universally accessible. We are building a new tech ecosystem that connects people and give them the tools to build their own systems of innovation and solutions empowering technological choice. "
   >
     <VerticalFeatureRow
