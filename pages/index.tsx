@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>SocialTech</title>
+        <title>Simtropolis</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/bpi8rtm.css" />
         <meta
@@ -20,15 +20,15 @@ export default function Home() {
           content="width=device-width, initial-scale=0.9, user-scalable=0"
         />
 
-        <meta property="og:title" content="SocialTech" />
-        <meta property="og:url" content="https://socialtech.live" />
+        <meta property="og:title" content="Simtropolis" />
+        <meta property="og:url" content="https://simtropolis.org" />
         <meta
           property="og:image"
-          content="https://socialtech.live/socialtech.gif"
+          content="https://simtropolis.org/simtropolis.gif"
         />
         <meta
           property="og:description"
-          content="Our vision is to make technology universally accessible. We are building a new tech ecosystem that connects people and give them the tools to build their own systems of innovation and solutions empowering technological choice."
+          content="A digital nerve center of collaboration, knowledge management, learning and productivity."
         />
 
         <meta property="twitter:title" content="SocialTech" />
@@ -36,7 +36,7 @@ export default function Home() {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:image"
-          content="https://socialtech.live/socialtech.gif"
+          content="https://simtropolis.org/socialtech.gif"
         />
         <meta
           property="twitter:image:alt"
@@ -44,7 +44,7 @@ export default function Home() {
         />
         <meta
           property="twitter:description"
-          content="Our vision is to make technology universally accessible. We are building a new tech ecosystem that connects people and give them the tools to build their own systems of innovation and solutions empowering technological choice."
+          content="A digital nerve center of collaboration, knowledge management, learning and productivity."
         />
 
         <meta property="og:image:type" content="image/png" />
@@ -80,7 +80,7 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.graphic}>
-              <img src="/assets/images/feature2.svg" draggable={false} />
+              <img src="/assets/images/feature.svg" draggable={false} />
             </div>
           </div>
         </section>
