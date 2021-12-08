@@ -14,6 +14,7 @@ export default function Home() {
       <Head>
         <title>SocialTech</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://use.typekit.net/bpi8rtm.css" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=0.9, user-scalable=0"
@@ -66,9 +67,9 @@ export default function Home() {
             <div className={styles.left}>
               <div className={styles.tagline}>
                 <h1>
-                  A new model for open collaboration.
+                  A new model for
                   <br />
-                  and socialising technology.
+                  open collaboration.
                 </h1>
                 <p>
                   Run an organisation where members get rewarded for their

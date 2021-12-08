@@ -14,7 +14,7 @@ export function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.branding}>
-        <img src="/logo.svg" draggable={false} />
+        <img src="/assets/images/logo.svg" draggable={false} />
         <div className={styles.socials}>
           <a href={URLs.GitHub}>
             <Github size={24} />

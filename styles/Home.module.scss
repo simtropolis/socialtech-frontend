@@ -2,6 +2,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 .overview {
@@ -27,7 +28,9 @@
             font-size: 64px;
             line-height: 70px;
             color: var(--accent);
-            font-weight: 600;
+            font-weight: 400;
+            font-family: bely-display, sans-serif;
+            font-style: normal;
             -webkit-text-stroke: 1.2px var(--accent);
         }
 
@@ -85,7 +88,9 @@
             font-size: 40px;
             margin-bottom: 20px;
             line-height: 45px;
-            font-weight: 600;
+            font-family: bely-display, sans-serif;
+            font-style: normal;
+            font-weight: 400;
         }
 
         p {

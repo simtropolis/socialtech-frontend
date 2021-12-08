@@ -3,7 +3,6 @@
 @import "~@fontsource/inter/500.css";
 @import "~@fontsource/inter/600.css";
 @import "~@fontsource/inter/700.css";
-@import url("https://use.typekit.net/bpi8rtm.css");
 
 * {
     -moz-osx-font-smoothing: grayscale;
@@ -32,7 +31,7 @@ html {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #303031;
     transition: opacity ease-in-out .07;
 
     &:hover {
