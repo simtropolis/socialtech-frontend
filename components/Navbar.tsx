@@ -8,12 +8,12 @@ export function Navbar() {
     <div className={styles.navbar}>
       <Link href="/">
         <a>
-          <img src="/assets/images/logo2.svg" draggable={false} />
+          <img src="/assets/images/logo3.svg" draggable={false} />
         </a>
       </Link>
       <div className={styles.actions}>
         <a href={URLs.GitHub}>GitHub</a>
-        {/*         <a>Why Simptropolis?</a>
+        {/*         <a>Why Netscape?</a>
         <a>Features</a>
         <a>Contribute</a>
         <a>Request Early Access</a> */}
