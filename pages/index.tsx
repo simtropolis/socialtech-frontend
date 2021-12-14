@@ -12,19 +12,19 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Simtropolis</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Netscape</title>
+        <link rel="icon" href="/favicon1.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/bpi8rtm.css" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=0.9, user-scalable=0"
         />
 
-        <meta property="og:title" content="Simtropolis" />
-        <meta property="og:url" content="https://simtropolis.org" />
+        <meta property="og:title" content="Netscape" />
+        <meta property="og:url" content="https://Netscape.page" />
         <meta
           property="og:image"
-          content="https://simtropolis.org/simtropolis.gif"
+          content="https://Netscape.page/netscape.gif"
         />
         <meta
           property="og:description"
@@ -36,7 +36,7 @@ export default function Home() {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:image"
-          content="https://simtropolis.org/socialtech.gif"
+          content="https://Netscape.page/netscape.gif"
         />
         <meta
           property="twitter:image:alt"
@@ -72,9 +72,9 @@ export default function Home() {
                   open collaboration.
                 </h1>
                 <p>
-                  Run an organisation where members get rewarded for their
+                  Run a commmunity where members get rewarded for their
                   <br />
-                  contributions with fraction ownership.
+                  contributions.
                 </p>
                 <JoinLinks />
               </div>

@@ -9,7 +9,7 @@ export default function Home({ content }: { content: string }) {
   return (
     <div>
       <Head>
-        <title>About Simtropolis</title>
+        <title>About Netscape</title>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="viewport"
