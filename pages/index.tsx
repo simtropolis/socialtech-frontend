@@ -37,7 +37,7 @@ export default function Home() {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:image"
-          content="https://Netscape.page/netscape.gif"
+          content="https://netscape.page/netscape.gif"
         />
         <meta
           property="twitter:image:alt"
@@ -89,15 +89,16 @@ export default function Home() {
         <section className={styles.section} data-reverse="true">
           <div className={styles.image}>
             <img
-              src="/appearance.jpg"
+              src="/members.svg"
               draggable={false}
               style={{ borderRadius: '8px' }}
             />
           </div>
           <div className={styles.content}>
             <div>
+              <img src="/assets/images/image1.svg" draggable={false} />
               <h1>
-                Kickstart a netscape
+                Kickstart a collective
                 <br /> with your co-founders.
               </h1>
               <p>
@@ -112,6 +113,7 @@ export default function Home() {
         <section className={styles.section}>
           <div className={styles.content}>
             <div>
+              <img src="/assets/images/image2.svg" draggable={false} />
               <h1>
                 Onboard users, investors
                 <br /> and advisors as you grow
@@ -134,15 +136,16 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.image}>
-            <img src="/opensource.svg" draggable={false} />
+            <img src="/proposal.svg" draggable={false} />
           </div>
         </section>
         <section className={styles.section} data-reverse="true">
           <div className={styles.image}>
-            <img src="/everywhere.svg" draggable={false} />
+            <img src="/illustration.svg" draggable={false} />
           </div>
           <div className={styles.content}>
             <div>
+              <img src="/assets/images/image3.svg" draggable={false} />
               <h1>
                 Engage highly committed
                 <br />
@@ -151,8 +154,8 @@ export default function Home() {
               <p>
                 You need talented people on-demand across various tasks that
                 your full-time workforce can’t prioritize at the moment. As an
-                Open Enterprise, you can easily fund tasks and have people apply
-                to work on them in return for funds or shares.
+                collective, you can easily fund tasks and have people apply to
+                work on them in return for funds or shares.
               </p>
             </div>
           </div>
@@ -161,22 +164,27 @@ export default function Home() {
           <div className={styles.content}>
             <div>
               <h1>
-                Reimagining what it means
+                Future of communication
                 <br />
-                to innovation.
+                collaboration and consultation.
               </h1>
               <p>
-                Our mission is to{' '}
-                <u>augment human capacity and advance social well-being</u> by
-                helping make technology universally accessible. We are building
-                are building a new tech ecosystem that connects people and give
-                them the tools to build their own systems of innovation and
-                solutions empowering technological choice.
+                A digital nerve center of{' '}
+                <u>
+                  collaboration, knowledge management, learning and
+                  productivity.
+                </u>{' '}
+                Designed to provide omni-channel environments for real time
+                communication, interaction, discussion and publication using
+                recent advances in modern digital technologies. The focus
+                towards which the unifying forces of decentralised networks and
+                digital experiences will converge and from which its energizing
+                influences will radiate.
               </p>
             </div>
           </div>
           <div className={styles.image}>
-            <img src="/privacy.svg" draggable={false} />
+            <img src="assets/images/feature1.svg" draggable={false} />
           </div>
         </section>
         <JoinPrompt />

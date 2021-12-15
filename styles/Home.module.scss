@@ -96,7 +96,11 @@
         p {
             font-size: 18px;
             max-width: 400px;
-        }   
+        }
+        
+        img {
+          display: flex;
+        }
     }
 
     &[data-reverse="true"] {
