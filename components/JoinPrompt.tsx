@@ -6,11 +6,11 @@ export function JoinPrompt() {
     <div className={styles.container}>
       <div className={styles.prompt}>
         <div className={styles.info}>
-          <h1>Start an Open Enterprise?</h1>
+          <h1>Start a Netscape?</h1>
           <p>
-            If you can’t wait to run a new or existing organization on Open
-            Enterprise and are willing to explore and navigate the beta, we’d
-            love to get you started.
+            If you can’t wait to run a new or existing organization on Netscape
+            and are willing to explore and navigate the beta, we’d love to get
+            you started.
           </p>
         </div>
         <JoinLinks contrast />

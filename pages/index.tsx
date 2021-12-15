@@ -1,6 +1,7 @@
 import { ArrowRight } from '@styled-icons/feather';
 import Head from 'next/head';
 
+import { CardSection } from '../components/CardSection';
 import { Footer } from '../components/Footer';
 import { JoinLinks } from '../components/JoinLinks';
 import { JoinPrompt } from '../components/JoinPrompt';
@@ -13,7 +14,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Netscape</title>
-        <link rel="icon" href="/favicon1.ico" />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/bpi8rtm.css" />
         <meta
           name="viewport"
@@ -72,9 +73,9 @@ export default function Home() {
                   open collaboration.
                 </h1>
                 <p>
-                  Run a commmunity where members get rewarded for their
+                  Run a collective where members get rewarded for their
                   <br />
-                  contributions.
+                  contributions with fractional ownership.
                 </p>
                 <JoinLinks />
               </div>
@@ -84,6 +85,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <CardSection />
         <section className={styles.section} data-reverse="true">
           <div className={styles.image}>
             <img
@@ -95,7 +97,7 @@ export default function Home() {
           <div className={styles.content}>
             <div>
               <h1>
-                Kickstart an organisation
+                Kickstart a netscape
                 <br /> with your co-founders.
               </h1>
               <p>
