@@ -1,0 +1,72 @@
+@import 'elements.scss';
+
+@import "~@fontsource/inter/500.css";
+@import "~@fontsource/inter/600.css";
+@import "~@fontsource/inter/700.css";
+
+* {
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility !important;
+    user-select: none;
+    font-weight: 500;
+}
+
+svg {
+	shape-rendering: geometricPrecision;
+}
+
+html, body {
+    margin: 0;
+    color: #303031;
+    font-family: proxima-nova, 'Inter', sans-serif;
+    background-color: var(--background);
+}
+
+html {
+    scrollbar-width: thin;
+    box-sizing: border-box;
+    scrollbar-color: var(--accent) var(--scrollbar);
+}
+
+a {
+    text-decoration: none;
+    color: #303031;
+    transition: opacity ease-in-out .07;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:active {
+        opacity: .7;
+    }
+}
+
+svg, img {
+    pointer-events: none;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --max-width: 1450px;
+    --scrollbar: hsl(125, 52%, 14%);
+    --background: #F9F9F9;
+    --accent: #71A894;
+}
